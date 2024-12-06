@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header{
+            font-family: serif;
+            border: 10px solid #b0ba86;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        .dropbtn{
+            background-color: aliceblue;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover{background-color: #ddd;}
+        .dropdown:hover .dropdown-content {display:block;}
+        .dropdown:hover .dropbtn {background-color: rgb(209, 233, 255);}
+
+        .menuheading1{
+            text-align: center;
+        }
+
+        .popotd{
+            width: 100px;
+        }
+
+        h1{
+            display: inline;
+            padding-right: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avi's Confections</h1>
+        <a href="http://127.0.0.1:5501/meeting.html" class="button">Menu</a>
+        <a href="http://127.0.0.1:5501/About.html" class="button">About</a>
+        <a href="http://127.0.0.1:5501/Services.html" class="button">Services</a>
+    
+    
+        <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="http://127.0.0.1:5501/main.html">Home</a>
+                <a href="http://127.0.0.1:5501/menu.html">Menu</a>
+                <a href="http://127.0.0.1:5501/About.html">About</a>
+                <a href="http://127.0.0.1:5501/Services.html">Services</a>
+                <a href="http://127.0.0.1:5501/Events.html">Events</a>
+                <a href="http://127.0.0.1:5501/Contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <h2>Our Delicious Variety</h2>
+        <p>At Avi's Confections, we are proud to present a delectable variety of baked goods that cater to every taste and occasion. From our fresh and flakey pastries to our  charming seasonal treats, each option is crafted with love and attention to detail. Indulge in our carefully curated selection, including unique flavor combinatins to classic flavors, all made from the finest ingredients to ensure a memorable experience with eveyr bite.</p>
+        <p>Discover Your new favorite treat with us and savor the delightful offering that make every visit to Avi's Confecitons a sweet adventure!</p>
+
+    <h2>Featured Pastries</h2>
+        <img src="" class="featpat" alt="Lemon curd on shortbread">
+        <img src="" class="featpat" alt="Some pastry I made">
+
+    <div  class="menuheading1">
+        <h3>Cakepop of the Day</h3>
+        <img src="strawberrycakepop.jpg" class="popotd" alt="cakepop with white base coat, red sugar, and red and dark chocolate">
+        <p>Today's cakepop features a strawberry cake coated in a light pink, strawberry flavored candy coating with red and dark chocolate for decoration</p>
+    </div>
+</body>
+</html>

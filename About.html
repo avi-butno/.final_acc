@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us!</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header{
+            font-family: serif;
+            border: 10px solid #b0ba86;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        .dropbtn{
+            background-color: aliceblue;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover{background-color: #ddd;}
+        .dropdown:hover .dropdown-content {display:block;}
+        .dropdown:hover .dropbtn {background-color: rgb(209, 233, 255);}
+
+        .heads{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 20px;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        h1{
+            display: inline;
+            padding-right: 30px;
+        }
+
+        h2{
+            padding-top: 100PX;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Avi's Confections</h1>
+        <a href="http://127.0.0.1:5501/meeting.html" class="button">Menu</a>
+        <a href="http://127.0.0.1:5501/About.html" class="button">About</a>
+        <a href="http://127.0.0.1:5501/Services.html" class="button">Services</a>
+    
+        <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="http://127.0.0.1:5501/main.html">Home</a>
+                <a href="http://127.0.0.1:5501/menu.html">Menu</a>
+                <a href="http://127.0.0.1:5501/About.html">About</a>
+                <a href="http://127.0.0.1:5501/Services.html">Services</a>
+                <a href="http://127.0.0.1:5501/Events.html">Events</a>
+                <a href="http://127.0.0.1:5501/Contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <h2>Our History</h2>
+    <p>
+        Xavier "Avi" Bojorquez is the founder and owner of Avi's Confecitons. For him, it started out as a side gig with his fast food 
+        job. His clients were usually his friends, bosses, and family. Starting off with selling cakepops and cupcakes, he made everything 
+        in his home kitchen with recipies he adjusts and tests to create new flavors. Plans of a cafe have long been in Xavier's head bust didn't know where to start.
+    </p>
+
+    <h2>Meet the Heads!</h2>
+    <div class="heads">
+        <p>Head Chef</p>
+        <p>Head Barista</p>
+        <p>Head of House</p>
+    </div>
+
+    <h2>Our Mission</h2>
+    <p>We believe in creating a warm and welcomig environment where everyone can enjoy a taste of homemade love.
+        By embracing creativity and passion in every treat, we aim to make each visit to our bakery a memorable 
+        occasion, whether it's a psecial celebration or a simple indulgence. Join us in our journey to spread 
+        happiness through our delicious confecitons!
+    </p>
+
+    <h2></h2>
+</body>
+</html>

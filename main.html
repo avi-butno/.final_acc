@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi's Confections</title>
+    <style>
+    
+        body{
+            background-color: aliceblue;
+            font-family: serif;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        header{
+            font-family: serif;
+            border: 10px solid #b0ba86;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        /* this code is for tje dropdown button */
+        .dropbtn{
+            background-color: aliceblue;
+            color: black;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover{background-color: #ddd;}
+        .dropdown:hover .dropdown-content {display:block;}
+        .dropdown:hover .dropbtn {background-color: rgb(209, 233, 255);}
+
+        .heading1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 34px;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .heading2{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .pastryimg{
+            width: 200px;
+            padding: 40px;
+            align-content: center;
+        }
+
+        .heading3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 70%;
+            font-size: 34px;
+        }
+
+        .heading4{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 34px;
+            padding: 0 14px;
+            margin-bottom: 100px;
+        }
+
+        h1{
+            display: inline;
+            padding-right: 30px;
+        }
+
+        h2, h5{
+            text-align: center;
+        }
+        
+        h3{
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h4{
+            font-size: larger;
+            padding-top: 100px;
+            padding-left: 100px;
+        }
+
+        p{
+            text-align: center;
+            font-size: small;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+    </style>
+</head>
+<body>   
+    <header>
+        <h1>Avi's Confections</h1>
+         <a href="http://127.0.0.1:5501/meeting.html" class="button">Menu</a>
+         <a href="http://127.0.0.1:5501/About.html" class="button">About</a>
+         <a href="http://127.0.0.1:5501/Services.html" class="button">Services</a>
+    
+        <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+                <a href="http://127.0.0.1:5501/main.html">Home</a>
+                <a href="http://127.0.0.1:5501/menu.html">Menu</a>
+                <a href="http://127.0.0.1:5501/About.html">About</a>
+                <a href="http://127.0.0.1:5501/Services.html">Services</a>
+                <a href="http://127.0.0.1:5501/Events.html">Events</a>
+                <a href="http://127.0.0.1:5501/Contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <h3>Menu</h3>
+    <!-- Images of good will go here (3 max) -->
+    <div class="heading1">
+        <img src="chocolatecakepops.jpg" class="pastryimg" alt="chocolate cakepop with white sprinkles">
+        <img src="lemoncake.jpg" class="pastryimg" alt="lemon pound cake with blueberries">
+        <p>Chocolate cakepop with wih a milk chocolate coating and white rounds</p>
+        <p>Lemon-Blueberry pound cakes with a lemom glaze, zest, and lemon peel garnish</p>
+        <p>Pastry</p>
+    </div>
+
+    <h4>About Us!</h4>
+    <!-- there will be a picture of our team on the left or righthand side-->
+     <div class="heading2">
+        <p> Avi's Confecitons is a cafe and baker that provides you with baked goods made 
+            daily, by hand, with high quality ingredients. We pride ourselves in our skills to
+            provide you with delicouse pastries and cakes!
+        </p> 
+    </div>
+    
+    <h3>Our Services</h3>
+     <h5>Bring us to You!</h5>
+    <div class="heading3">
+        <p>Delivery</p>
+        <p>Custom Orders</p>
+        <p>Catering</p>
+    </div>
+
+    <h4>Latest News and Events</h4>
+    <div class="heading4">
+        <p>Sesonal Treats or non regular treats being served for a limited time only.</p>
+        <p>Event information being held by Avi's confecitons or an event Avi's Confections will be attenting.</p>
+        <p>Highlights from previous events invluding photos of custom treats made (if any)</p>
+    </div>
+
+</body>
+</html>
